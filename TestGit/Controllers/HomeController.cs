@@ -10,6 +10,8 @@ namespace TestGit.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Age = "36 years old";
+
             ViewBag.Title = "This is my Home Page";
 
             return View();
